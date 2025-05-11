@@ -8,3 +8,4 @@
 :action là trong quá trình người dùng click nhưng chưa nhả ra
 ::after{} : là sau đó nó sẽ thực hiện việc gì đó
 sử dụng với button thì sẽ tạo ra 1 button giống hệt nằm bên dưới button gốc
+animation-iteration-count: infinite; số lần lặp lại
