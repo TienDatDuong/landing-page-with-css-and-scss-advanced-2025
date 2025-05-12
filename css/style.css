@@ -152,4 +152,19 @@ body {
   left: 30px;
 }
 
+.row {
+  max-width: 114rem;
+  margin: 0 auto;
+  background-color: #8e9efc;
+}
+.row:not(:last-child) {
+  margin-bottom: 8rem;
+}
+
+.col-1-of-2 {
+  width: calc(100% - 8rem / 2);
+  background-color: yellow;
+  float: left;
+}
+
 /*# sourceMappingURL=style.css.map */

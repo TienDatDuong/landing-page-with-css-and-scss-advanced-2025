@@ -1,0 +1,15 @@
+.row{
+    &:not(:last-child){
+        margin-bottom: $gutter-vertical;
+    }
+    max-width: $grid-width;
+    margin: 0 auto;
+    background-color: $color-primary-light;
+}
+
+.col-1-of-2{
+    //#{} de tai su dung bien trong scss
+    width: calc(100% - #{$gutter-vertical}/2);
+    background-color: yellow;
+    float: left;
+}
