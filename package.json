@@ -1,0 +1,22 @@
+{
+  "name": "landingpage",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TienDatDuong/landing-page-with-css-and-scss-advanced.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TienDatDuong/landing-page-with-css-and-scss-advanced/issues"
+  },
+  "homepage": "https://github.com/TienDatDuong/landing-page-with-css-and-scss-advanced#readme",
+  "description": "",
+  "devDependencies": {
+    "sass": "^1.88.0"
+  }
+}
