@@ -9,6 +9,20 @@
 ::after{} : là sau đó nó sẽ thực hiện việc gì đó
 sử dụng với button thì sẽ tạo ra 1 button giống hệt nằm bên dưới button gốc
 animation-iteration-count: infinite; số lần lặp lại
+-Thứ tự ưu tiên:
++thứ tự ưu tiên (specificity) trong CSS, được dùng để quyết định quy tắc CSS nào sẽ được áp dụng khi có nhiều quy tắc trùng lặp cho cùng một phần tử.
++Cụ thể, độ ưu tiên trong CSS được biểu diễn bằng một bộ 4 số như sau:
+(a, b, c, d)
+Trong đó:
+a: Số lượng inline style (kiểu viết trực tiếp vào phần tử, ví dụ: <div style="color:red">)
+
+b: Số lượng ID selectors (ví dụ: #myId)
+
+c: Số lượng class selectors, pseudo-classes (như :hover, :nth-child), attribute selectors (như [type="text"])
+
+d: Số lượng element selectors (như div, p, h1, ...) và pseudo-elements (như ::before, ::after)
+
+Quy tắc so sánh: so sánh từ trái sang phải. Bộ nào có số lớn hơn ở vị trí nào đó thì có độ ưu tiên cao hơn.
 --------------------------------
 -Bài:10 BEM(Block Element Modifier)
 + suy nghĩ về cách tổ chức code
@@ -71,3 +85,6 @@ extend
     extend %cssLink;
 }
 Bài 15: Setup Node-SASS
+------------------------------------
+CSS Attribute Selectors
+https://www.w3schools.com/css/css_attribute_selectors.asp

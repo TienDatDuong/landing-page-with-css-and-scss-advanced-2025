@@ -1,0 +1,8 @@
+@mixin clearfix {
+  &::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+}
+// dùng để tạo ra một clearfix cho các phần tử cha, giúp cho các phần tử con bên trong không bị tràn ra ngoài
